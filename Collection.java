@@ -32,7 +32,7 @@ class Student {
     }
 }
 
-public class Lab9 {
+public class Collection {
     public static void main(String[] args) {
         ArrayList<Student> studentList = new ArrayList<>();
 
@@ -64,4 +64,5 @@ public class Lab9 {
             System.out.println(s);
         }
     }
+
 }
