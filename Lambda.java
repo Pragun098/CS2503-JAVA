@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Lab11 {
+public class Lambda {
     public static void main(String[] args) {
 
         List<Product> productList = new ArrayList<>();
@@ -43,4 +43,5 @@ class Product {
     public String toString() {
         return name + " - ₹" + price;
     }
+
 }
