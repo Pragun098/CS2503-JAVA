@@ -15,7 +15,7 @@ class Box<T> {
     }
 }
 
-public class Lab8 {
+public class Wrapper Classes and Generics {
     public static void main(String[] args) {
         Box<Integer> intBox = new Box<>();
         intBox.addItem(10);   
@@ -47,4 +47,5 @@ public class Lab8 {
 
         System.out.println("Quantities list (autoboxed Integers): " + quantities);
     }
+
 }
